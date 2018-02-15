@@ -1,23 +1,25 @@
 body{
+    padding: 0px;
+    margin: 0px;
     color: #fff;
     background-color: #333;
     font-family: 'Open Sans', sans-serif;
     width: 100vw;
-/*
-	margin: 0;
-	padding: 0;
-*/
 }
 
 .container-fluid{
 	margin: 0;
-/*    padding: 0;*/
 }
 
 
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
+ }
+
+ /* index page */
+ .search{
+     background-image: url(recipe.jpg);
  }
 
 /*form*/
@@ -84,8 +86,6 @@ body{
 }
 
 /*others*/
-.bg-3{
-}
 
 
 .sign{
@@ -126,8 +126,8 @@ ul ul a {
 footer{
   padding: 0px;
   margin: 0px;
-  background-color: #FFBB00	;
-  color: black;
+  background-color: darkred	;
+  color: white;
 }
 
 ul#footer_list li{

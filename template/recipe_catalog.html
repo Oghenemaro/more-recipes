@@ -13,13 +13,13 @@
 <nav class="col-sm-12 navbar navbar-expand-lg navbar-dark bg-dark">
 <div class="container-fluid">
     
-      <a class="navbar-brand mr-5" href="index.html">More Recipes</a>
+      <a class="navbar-brand mr-5" href="../index.html">More Recipes</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto ml-5" style="">
+        <ul class="navbar-nav mr-auto">
           <li class="nav-item active"><a class="nav-link" href="../index.html">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="profile.html">Profile</a></li>
           <li class="nav-item"><a class="nav-link" href="recipe_catalog.html">Recipes</a></li>
@@ -33,25 +33,16 @@
 </nav>
 
     
-
-<style>
-
-    .parent-div{
-        
-    }
-</style>
-    
 <div class="container-fluid" >
 
     <div class="row">
-      <div class="col-sm-12 text-center sign">
-<!--        <img src="" alt="Not supported" class="img-fluid" >-->
-        <div class="row sign">
-            <div class="col-sm-3"></div>
-                <div class="col-sm-7 text-center" style="margin-top:100px; margin-bottom:200px">
+      <div class="col-sm-12 text-center search">
+        <div class="row">
+            <div class="col-sm-2"></div>
+                <div class="col-sm-8" style="margin-top:125px; margin-bottom:200px">
                     <h1>Find A Recipe</h1>
                     <div class="form-group">
-                        <form class="form-inline col-sm-12" method="post" action="" role="form">
+                        <form class="form-inline" method="post" action="" style="width: 100%;" role="form">
                             <input type="text" placeholder="Find A Recipe" name="fname" value="" class="form-control col-sm-10" required />
                             <button class="btn btn-success col-sm-2" name="submit" type="submit">Search</button>  
                         </form>
@@ -224,21 +215,23 @@
 
     
     
-<footer class="col-sm-12 btn btn-danger">
-    <div class="row">
-        <div class="col-sm-3">
-          Copyright 2017
-        </div>
-        <div class="col-sm-3 offset-sm-2">
-          <ul id="footer_list">
-              <li>Terms</li>
-              <li>Privacy</li>
-              <li>Security</li>
-              <li>Help</li>
-            </ul>
-         </div>
-    </div>
+<footer class="footer col-sm-12 mt-3">
+  <div class="container row col-sm-12" >
+      <div class="col-sm-3">
+        <span>Copyright 2017</span>
+      </div>
+      <div class="col-sm-6"></div>
+      <div class=" col-sm-3 ">
+        <ul id="footer_list">
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Security</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+      </div>
+  </div>
 </footer>
+
 
     
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
